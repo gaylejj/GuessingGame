@@ -18,6 +18,7 @@ if (guess == answer) {
             guess = prompt("Sorry, you were too low. Try again!");
         } else {
             alert("Congratulations, you are correct! It only took you " + (guessesTried.guesses.length + 1) + " tries!");
+            break;
         }
     }
 }
